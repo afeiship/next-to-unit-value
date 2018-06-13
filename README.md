@@ -8,5 +8,11 @@ npm install -S afeiship/next-to-unit-value --registry=https://registry.npm.taoba
 
 ## usage:
 ```js
-//DOCS here!
+import toUnitValue from 'next-to-unit-value';
+
+const [_, value, unit ]=nx.toUnitValue('1.23rem');
+
+
+// value: '1.23'
+// unit: 'rem'
 ```
